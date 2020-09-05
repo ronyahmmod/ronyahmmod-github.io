@@ -1,0 +1,33 @@
+.CardList {
+	width: 100%;
+	/* display: flex; */
+}
+
+.input-container {
+	display: flex;
+	justify-content: center;
+	/* border: 1px solid #ddeedd; */
+	padding-top: 4px;
+	padding-bottom: 4px;
+	width: 100%;
+}
+.input-container input[type='text'] {
+	padding: 10px;
+	width: 500px;
+	margin-left: 10px;
+	outline: none;
+	border: 1px solid #ddffdd;
+}
+.input-container input[type='text']:focus {
+	outline: none;
+}
+
+.input-container label {
+	padding: 5px;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+.CardList .list {
+	display: flex;
+	flex-wrap: wrap;
+}
