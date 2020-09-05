@@ -13,7 +13,7 @@ class App extends Component {
 
 	// loading data from the external api or server
 	componentDidMount() {
-		fetch('https://jsonplaceholder.typicode.com/users')
+		fetch('https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/users')
 			.then((res) =>
 				// this.setState({monsters: })
 				res.json()
